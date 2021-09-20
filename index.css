@@ -1,0 +1,64 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin:0;
+
+	width: 50vw;
+	background-color: #7fffd4;
+	border-radius: 10px;
+	align-items:center;
+	
+	
+}
+.container {
+width:100vw;
+	min-height:150vh; 
+	display:grid;
+	place-items: center;
+	background-color: #f0ffff; 
+
+}
+
+.flex-column , h1{
+	display:flex;
+	flex-direction: column;
+		align-items:center;
+
+
+}
+
+
+.flex-center, h1{
+
+justify-content:center;
+align-items: center;
+}
+
+
+ .btn{
+	font-size:20px;
+	padding: 20px;
+	text-align:center;
+	margin-top:20px;
+    cursor: pointer;
+	background-color:#00ff00;
+	
+}
+
+.btn:hover{
+	cursor: hover;
+	background-color:#ffa07a;
+	transform:scale(1.03);
+}
+.hidden{
+	display:none;
+}
+
+.btn[disabled]:hover{
+	cursor: not-allowed;
+	transform:none;
+}
+	
